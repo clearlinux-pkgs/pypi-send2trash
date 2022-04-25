@@ -4,7 +4,7 @@
 #
 Name     : pypi-send2trash
 Version  : 1.8.0
-Release  : 35
+Release  : 36
 URL      : https://files.pythonhosted.org/packages/49/2c/d990b8d5a7378dde856f5a82e36ed9d6061b5f2d00f39dc4317acd9538b4/Send2Trash-1.8.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/49/2c/d990b8d5a7378dde856f5a82e36ed9d6061b5f2d00f39dc4317acd9538b4/Send2Trash-1.8.0.tar.gz
 Summary  : Send file to trash natively under Mac OS X, Windows and Linux.
@@ -15,9 +15,6 @@ Requires: pypi-send2trash-license = %{version}-%{release}
 Requires: pypi-send2trash-python = %{version}-%{release}
 Requires: pypi-send2trash-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: Send2Trash
-Provides: Send2Trash-python
-Provides: Send2Trash-python3
 
 %description
 ==================================================
@@ -69,7 +66,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641496784
+export SOURCE_DATE_EPOCH=1650929147
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
