@@ -7,7 +7,7 @@
 #
 Name     : pypi-send2trash
 Version  : 1.8.3
-Release  : 49
+Release  : 50
 URL      : https://files.pythonhosted.org/packages/fd/3a/aec9b02217bb79b87bbc1a21bc6abc51e3d5dcf65c30487ac96c0908c722/Send2Trash-1.8.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/fd/3a/aec9b02217bb79b87bbc1a21bc6abc51e3d5dcf65c30487ac96c0908c722/Send2Trash-1.8.3.tar.gz
 Summary  : Send file to trash natively under Mac OS X, Windows and Linux
